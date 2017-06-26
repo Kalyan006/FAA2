@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" name="Failed suite [PD Tests]">
+  <test name="TC16(failed)">
+    <classes>
+      <class name="com.phm.hec.PD.Testcases.TC16AddAccount">
+        <methods>
+          <include name="AddAccount"/>
+        </methods>
+      </class> <!-- com.phm.hec.PD.Testcases.TC16AddAccount -->
+      <class name="com.phm.hec.testcases.initiate">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.phm.hec.testcases.initiate -->
+    </classes>
+  </test> <!-- TC16(failed) -->
+</suite> <!-- Failed suite [PD Tests] -->

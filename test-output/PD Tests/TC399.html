@@ -1,0 +1,115 @@
+<html>
+<head>
+<title>TestNG:  TC399</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TC399</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jun 16 22:22:12 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>9 seconds (9940 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.phm.hec.testcases.TC399.AddProvider()'><b>AddProvider</b><br>Test class: com.phm.hec.testcases.TC399<br/>
+<a href="#Output-511354923" onClick='toggleBox("Output-511354923", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-511354923" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-511354923">
+2017/06/16 22:22:12:-Forgot password test execution starts - true<br/>
+2017/06/16 22:22:12:-Application already logged in. Logging out for Forgot password validation<br/>
+2017/06/16 22:22:21:-Clicked on Forgot Password Link<br/>
+2017/06/16 22:22:22:-Forgot Password User Name : test123|| Email ID : test@gmail.com<br/>
+2017/06/16 22:22:22:-Forgot Password Exception :--Exception is :no such element: Unable to locate element: {"method":"xpath","selector":".//*[@id='ContentPlaceHolder1_txtOTP']"}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'LT-MAHESHANANDA', ip: '192.168.6.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\MAHESH~1.ANA\AppData\Local\Temp\scoped_dir1420_8995}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 138ddd79b6a9141f1bfcde2ab3cc6cb0
+*** Element info: {Using=xpath, value=.//*[@id='ContentPlaceHolder1_txtOTP']}<br/>
+<h>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<br/>
+Note: Below Screen shot name is fomated as TestCaseName & TestStatus & TestID<br/>
+Example: TestCaseName_TestStatus_TestID<br/>
+Please Click Screen shot name to view screen shot in full page<br/>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</h><br/>
+</br><br/>
+</br><br/>
+</br><br/>
+<tr><td><a href='file:///D:\UATAutomation\hec/Screenshot/TC399_Fail_Row1Forgot Password.png'> <img src='file:///D:\UATAutomation\hec/Screenshot/TC399_Fail_Row1Forgot Password.png' height='100' width='100'/><b><strong><font size='3' color='OrangeRed'></font></strong></b><b><font size='3' color='Indigo'>TC399_<font size='3' color='red'>Fail</font>_Row1Forgot Password</font></b></a></td></tr><br/>
+<font size='3' color='Tomato'>Reason for Failuer   :  </font><font size='3' color='DarkSlateGray'> </font><br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>com.phm.hec.testcases.TC399@520a3426</td></tr>
+</table><p>
+</body>
+</html>

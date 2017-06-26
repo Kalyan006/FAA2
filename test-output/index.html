@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-PD_Tests">
+              <span class="suite-name border-passed">PD Tests</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-PD_Tests">
+                    <span>D:\UATAutomation\hec\TestSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-PD_Tests">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-PD_Tests">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-PD_Tests">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-PD_Tests">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-PD_Tests">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-PD_Tests">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-PD_Tests" class="hide-methods passed suite-PD_Tests"> (hide)</a> <!-- hide-methods passed suite-PD_Tests -->
+                      <a href="#" panel-name="suite-PD_Tests" class="show-methods passed suite-PD_Tests"> (show)</a> <!-- show-methods passed suite-PD_Tests -->
+                    </span>
+                    <div class="method-list-content passed suite-PD_Tests">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PD_Tests" title="com.phm.hec.PD.Testcases.TC16AddAccount" hash-for-method="AddAccount">AddAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PD_Tests" title="com.phm.hec.testcases.EndTestSuiteRun" hash-for-method="EndTestSuite">EndTestSuite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PD_Tests" title="com.phm.hec.testcases.initiate" hash-for-method="loginn">loginn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-PD_Tests -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-PD_Tests" class="panel PD_Tests">
+          <div class="suite-PD_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.phm.hec.testcases.initiate</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginn">
+                  </a> <!-- loginn -->
+                  <span class="method-name">loginn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PD_Tests-class-passed -->
+          <div class="suite-PD_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.phm.hec.PD.Testcases.TC16AddAccount</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddAccount">
+                  </a> <!-- AddAccount -->
+                  <span class="method-name">AddAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PD_Tests-class-passed -->
+          <div class="suite-PD_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.phm.hec.testcases.EndTestSuiteRun</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EndTestSuite">
+                  </a> <!-- EndTestSuite -->
+                  <span class="method-name">EndTestSuite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PD_Tests-class-passed -->
+        </div> <!-- panel PD_Tests -->
+        <div panel-name="test-xml-PD_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\UATAutomation\hec\TestSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;4&quot; name=&quot;PD Tests&quot;&gt;
+  &lt;test name=&quot;Initialize&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.phm.hec.testcases.initiate&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Initialize --&gt;
+  &lt;test name=&quot;TC16&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.phm.hec.PD.Testcases.TC16AddAccount&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC16 --&gt;
+  &lt;test name=&quot;EndTestSuite&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.phm.hec.testcases.EndTestSuiteRun&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- EndTestSuite --&gt;
+&lt;/suite&gt; &lt;!-- PD Tests --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-PD_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for PD Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Initialize (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TC16 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">EndTestSuite (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-PD_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for PD Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-PD_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for PD Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_PD_Tests');
+function tableData_PD_Tests() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'AddAccount')
+data.setCell(0, 2, 'com.phm.hec.PD.Testcases.TC16AddAccount')
+data.setCell(0, 3, 19969);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginn')
+data.setCell(1, 2, 'com.phm.hec.testcases.initiate')
+data.setCell(1, 3, 17606);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'EndTestSuite')
+data.setCell(2, 2, 'com.phm.hec.testcases.EndTestSuiteRun')
+data.setCell(2, 3, 3156);
+window.suiteTableData['PD_Tests']= { tableData: data, tableDiv: 'times-div-PD_Tests'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 40 seconds</span>
+              <div id="times-div-PD_Tests">
+              </div> <!-- times-div-PD_Tests -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-PD_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for PD Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginn</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2017/06/27 01:45:07:-Logged in Successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">AddAccount</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2017/06/27 01:45:27:-Add account failed--Exception is :Cannot locate element with text: 
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DT-KALYANASHIS', ip: '192.168.15.71', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: unknown</span>
+                <span class="reporter-method-output"><h>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</span>
+                <span class="reporter-method-output">Note: Below Screen shot name is fomated as TestCaseName & TestStatus & TestID</span>
+                <span class="reporter-method-output">Example: TestCaseName_TestStatus_TestID</span>
+                <span class="reporter-method-output">Please Click Screen shot name to view screen shot in full page</span>
+                <span class="reporter-method-output">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</h></span>
+                <span class="reporter-method-output"></br></span>
+                <span class="reporter-method-output"></br></span>
+                <span class="reporter-method-output"></br></span>
+                <span class="reporter-method-output"><tr><td><a href='file:///D:\UATAutomation\hec/Screenshot/16_Fail_Add account TC.png'> <img src='file:///D:\UATAutomation\hec/Screenshot/16_Fail_Add account TC.png' height='100' width='100'/><b><strong><font size='3' color='OrangeRed'></font></strong></b><b><font size='3' color='Indigo'>16_<font size='3' color='red'>Fail</font>_Add account TC</font></b></a></td></tr></span>
+                <span class="reporter-method-output"><font size='3' color='Tomato'>Reason for Failuer   :  </font><font size='3' color='DarkSlateGray'> </font></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-PD_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-PD_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.phm.hec.testcases.initiate</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">47 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">47 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.phm.hec.testcases.initiate.loginn() throws java.lang.Exception)</span>
+                <span class="method-start">47 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginn</span>
+                <span class="method-start">47 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">17654 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">17656 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.phm.hec.PD.Testcases.TC16AddAccount</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">AddAccount</span>
+                <span class="method-start">17673 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.phm.hec.testcases.EndTestSuiteRun</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">EndTestSuite</span>
+                <span class="method-start">37651 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

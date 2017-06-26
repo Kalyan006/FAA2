@@ -1,0 +1,238 @@
+2017-06-16 22:14:42.877 INFO  Initializer:64 - Client : AHG_UAT
+2017-06-16 22:14:42.879 INFO  Initializer:66 - Browser : CHROME
+2017-06-16 22:14:42.879 INFO  Initializer:68 - Module(s) : PD
+2017-06-16 22:14:42.880 INFO  Initializer:70 - TestType : REG
+2017-06-16 22:14:42.880 INFO  Initializer:73 - URL : https://phmadminuat.healthec.com/AHGCR0137/
+2017-06-16 22:14:42.880 INFO  Initializer:90 - Launching  https://phmadminuat.healthec.com/AHGCR0137/ chrome with new profile..
+2017-06-16 22:15:11.742 INFO  Initializer:17 - Logged in Successfully
+2017-06-16 22:15:11.818 INFO  TC399ForgotPassword:49 - File Path : D:\UATAutomation\hec\src\test\Data\forgotpassword.xlsx
+2017-06-16 22:15:11.819 INFO  TC399ForgotPassword:56 - Multiple Test Data : true
+2017-06-16 22:15:11.871 INFO  TC399ForgotPassword:71 - Test Type : REG || TesRows :5|| Columns : 5
+2017-06-16 22:15:11.871 INFO  TC399ForgotPassword:73 - Forgot password test execution starts - true
+2017-06-16 22:15:11.872 INFO  Initializer:17 - Forgot password test execution starts - true
+2017-06-16 22:15:11.873 INFO  TC399ForgotPassword:86 - Execute the Row 1
+2017-06-16 22:15:11.874 INFO  TC399ForgotPassword:89 - Execute the Row 1 = NO
+2017-06-16 22:15:11.874 INFO  TC399ForgotPassword:91 - false
+2017-06-16 22:15:11.875 INFO  TC399ForgotPassword:275 - Row Number :1User Name : Email ID : Execute Y/N : NO
+2017-06-16 22:15:11.876 INFO  Initializer:17 - Row Number :1User Name : Email ID : Execute Y/N : NO
+2017-06-16 22:15:11.877 INFO  TC399ForgotPassword:86 - Execute the Row 2
+2017-06-16 22:15:11.877 INFO  TC399ForgotPassword:89 - Execute the Row 2 = YES
+2017-06-16 22:15:11.878 INFO  TC399ForgotPassword:91 - true
+2017-06-16 22:15:11.878 INFO  TC399ForgotPassword:96 - Logged in : true
+2017-06-16 22:15:11.878 INFO  TC399ForgotPassword:99 - Application already logged in. Logging out for Forgot password validation : 
+2017-06-16 22:15:11.879 INFO  Initializer:17 - Application already logged in. Logging out for Forgot password validation
+2017-06-16 22:15:22.649 INFO  TC399ForgotPassword:120 - Clicked on Forgot Password Link
+2017-06-16 22:15:22.651 INFO  Initializer:17 - Clicked on Forgot Password Link
+2017-06-16 22:15:28.420 INFO  TC399ForgotPassword:142 - Forgot Password User Name : TC399UATForgotPassword|| Email ID : healthecuat@gmail.com
+2017-06-16 22:15:28.422 INFO  Initializer:17 - Forgot Password User Name : TC399UATForgotPassword|| Email ID : healthecuat@gmail.com
+2017-06-16 22:15:28.489 INFO  EmailUtil:37 - open gmail account with mail id ----> healthecuat@gmail.com and password ---> igi$12345
+2017-06-16 22:15:28.496 INFO  EmailUtil:51 - Store
+2017-06-16 22:15:28.508 INFO  EmailUtil:53 - Store :imaps:
+2017-06-16 22:15:28.508 INFO  EmailUtil:55 - Store Connect Email : healthecuat@gmail.com Password :igi$12345
+2017-06-16 22:15:47.050 INFO  EmailUtil:156 - passCode::xnG72
+2017-06-16 22:15:47.238 INFO  TC399ForgotPassword:168 - OTP For the User TC399UATForgotPassword is : null
+2017-06-16 22:15:47.239 INFO  Initializer:17 - OTP For the User TC399UATForgotPassword is : null
+2017-06-16 22:15:49.065 INFO  TC399ForgotPassword:178 - Clicked on next button in OTP Page
+2017-06-16 22:15:49.066 INFO  Initializer:17 - Clicked on next button in OTP Page
+2017-06-16 22:15:55.319 INFO  TC399ForgotPassword:191 - Clicked on the next button in Security Question Page
+2017-06-16 22:15:55.320 INFO  Initializer:17 - Clicked on the next button in Security Question Page
+2017-06-16 22:15:55.467 INFO  TC399ForgotPassword:200 - New password : Password!221555
+2017-06-16 22:15:55.468 INFO  Initializer:17 - New password : Password!221555
+2017-06-16 22:16:19.573 INFO  TC399ForgotPassword:214 - Confirmation Message : true
+2017-06-16 22:16:19.581 INFO  TC399ForgotPassword:86 - Execute the Row 3
+2017-06-16 22:16:19.582 INFO  TC399ForgotPassword:89 - Execute the Row 3 = NO
+2017-06-16 22:16:19.583 INFO  TC399ForgotPassword:91 - false
+2017-06-16 22:16:19.583 INFO  TC399ForgotPassword:275 - Row Number :3User Name : Email ID : Execute Y/N : NO
+2017-06-16 22:16:19.584 INFO  Initializer:17 - Row Number :3User Name : Email ID : Execute Y/N : NO
+2017-06-16 22:16:19.585 INFO  TC399ForgotPassword:86 - Execute the Row 4
+2017-06-16 22:16:19.587 INFO  TC399ForgotPassword:89 - Execute the Row 4 = YES
+2017-06-16 22:16:19.587 INFO  TC399ForgotPassword:91 - true
+2017-06-16 22:16:19.588 INFO  TC399ForgotPassword:96 - Logged in : false
+2017-06-16 22:16:24.618 INFO  TC399ForgotPassword:120 - Clicked on Forgot Password Link
+2017-06-16 22:16:24.619 INFO  Initializer:17 - Clicked on Forgot Password Link
+2017-06-16 22:16:25.369 INFO  TC399ForgotPassword:142 - Forgot Password User Name : uatinvalid|| Email ID : healthecuat1@gmail.com
+2017-06-16 22:16:25.370 INFO  Initializer:17 - Forgot Password User Name : uatinvalid|| Email ID : healthecuat1@gmail.com
+2017-06-16 22:16:25.406 INFO  TC399ForgotPassword:287 - Forgot Password Exception :no such element: Unable to locate element: {"method":"xpath","selector":".//*[@id='ContentPlaceHolder1_txtOTP']"}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 32 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'LT-MAHESHANANDA', ip: '192.168.6.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\MAHESH~1.ANA\AppData\Local\Temp\scoped_dir3268_7517}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 8d85a7385647e6492c330c0f356039f3
+*** Element info: {Using=xpath, value=.//*[@id='ContentPlaceHolder1_txtOTP']}
+2017-06-16 22:16:25.407 INFO  Initializer:35 - Forgot Password Exception :--Exception is :no such element: Unable to locate element: {"method":"xpath","selector":".//*[@id='ContentPlaceHolder1_txtOTP']"}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 32 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'LT-MAHESHANANDA', ip: '192.168.6.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\MAHESH~1.ANA\AppData\Local\Temp\scoped_dir3268_7517}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 8d85a7385647e6492c330c0f356039f3
+*** Element info: {Using=xpath, value=.//*[@id='ContentPlaceHolder1_txtOTP']}
+2017-06-16 22:19:12.401 INFO  Initializer:64 - Client : AHG_UAT
+2017-06-16 22:19:12.404 INFO  Initializer:66 - Browser : CHROME
+2017-06-16 22:19:12.404 INFO  Initializer:68 - Module(s) : PD
+2017-06-16 22:19:12.404 INFO  Initializer:70 - TestType : REG
+2017-06-16 22:19:12.405 INFO  Initializer:73 - URL : https://phmadminuat.healthec.com/AHGCR0137/
+2017-06-16 22:19:12.405 INFO  Initializer:90 - Launching  https://phmadminuat.healthec.com/AHGCR0137/ chrome with new profile..
+2017-06-16 22:19:34.057 INFO  Initializer:17 - Logged in Successfully
+2017-06-16 22:19:34.118 INFO  TC399ForgotPassword:49 - File Path : D:\UATAutomation\hec\src\test\Data\forgotpassword.xlsx
+2017-06-16 22:19:34.118 INFO  TC399ForgotPassword:56 - Multiple Test Data : false
+2017-06-16 22:19:34.148 INFO  TC399ForgotPassword:71 - Test Type : REG || TesRows :5|| Columns : 5
+2017-06-16 22:19:34.148 INFO  TC399ForgotPassword:73 - Forgot password test execution starts - true
+2017-06-16 22:19:34.150 INFO  Initializer:17 - Forgot password test execution starts - true
+2017-06-16 22:19:34.150 INFO  TC399ForgotPassword:86 - Execute the Row 1
+2017-06-16 22:19:34.151 INFO  TC399ForgotPassword:89 - Execute the Row 1 = NO
+2017-06-16 22:19:34.151 INFO  TC399ForgotPassword:91 - false
+2017-06-16 22:19:34.152 INFO  TC399ForgotPassword:275 - Row Number :1User Name : Email ID : Execute Y/N : NO
+2017-06-16 22:19:34.153 INFO  Initializer:17 - Row Number :1User Name : Email ID : Execute Y/N : NO
+2017-06-16 22:19:34.154 INFO  TC399ForgotPassword:86 - Execute the Row 2
+2017-06-16 22:19:34.154 INFO  TC399ForgotPassword:89 - Execute the Row 2 = YES
+2017-06-16 22:19:34.155 INFO  TC399ForgotPassword:91 - true
+2017-06-16 22:19:34.155 INFO  TC399ForgotPassword:96 - Logged in : true
+2017-06-16 22:19:34.156 INFO  TC399ForgotPassword:99 - Application already logged in. Logging out for Forgot password validation : 
+2017-06-16 22:19:34.156 INFO  Initializer:17 - Application already logged in. Logging out for Forgot password validation
+2017-06-16 22:19:42.259 INFO  TC399ForgotPassword:120 - Clicked on Forgot Password Link
+2017-06-16 22:19:42.261 INFO  Initializer:17 - Clicked on Forgot Password Link
+2017-06-16 22:19:47.048 INFO  TC399ForgotPassword:142 - Forgot Password User Name : TC399UATForgotPassword|| Email ID : healthecuat@gmail.com
+2017-06-16 22:19:47.048 INFO  Initializer:17 - Forgot Password User Name : TC399UATForgotPassword|| Email ID : healthecuat@gmail.com
+2017-06-16 22:19:47.105 INFO  EmailUtil:37 - open gmail account with mail id ----> healthecuat@gmail.com and password ---> igi$12345
+2017-06-16 22:19:47.115 INFO  EmailUtil:51 - Store
+2017-06-16 22:19:47.129 INFO  EmailUtil:53 - Store :imaps:
+2017-06-16 22:19:47.129 INFO  EmailUtil:55 - Store Connect Email : healthecuat@gmail.com Password :igi$12345
+2017-06-16 22:20:06.460 INFO  EmailUtil:156 - passCode::dcrf2
+2017-06-16 22:20:06.622 INFO  TC399ForgotPassword:168 - OTP For the User TC399UATForgotPassword is : null
+2017-06-16 22:20:06.623 INFO  Initializer:17 - OTP For the User TC399UATForgotPassword is : null
+2017-06-16 22:20:08.411 INFO  TC399ForgotPassword:178 - Clicked on next button in OTP Page
+2017-06-16 22:20:08.412 INFO  Initializer:17 - Clicked on next button in OTP Page
+2017-06-16 22:20:15.311 INFO  TC399ForgotPassword:191 - Clicked on the next button in Security Question Page
+2017-06-16 22:20:15.312 INFO  Initializer:17 - Clicked on the next button in Security Question Page
+2017-06-16 22:20:15.441 INFO  TC399ForgotPassword:200 - New password : Password!222015
+2017-06-16 22:20:15.442 INFO  Initializer:17 - New password : Password!222015
+2017-06-16 22:20:39.066 INFO  TC399ForgotPassword:214 - Confirmation Message : true
+2017-06-16 22:20:39.077 INFO  TC399ForgotPassword:299 - Multi Test Data : true Execute Y/N : true
+2017-06-16 22:21:47.987 INFO  Initializer:64 - Client : AHG_UAT
+2017-06-16 22:21:47.989 INFO  Initializer:66 - Browser : CHROME
+2017-06-16 22:21:47.990 INFO  Initializer:68 - Module(s) : PD
+2017-06-16 22:21:47.990 INFO  Initializer:70 - TestType : BAT
+2017-06-16 22:21:47.990 INFO  Initializer:73 - URL : https://phmadminuat.healthec.com/AHGCR0137/
+2017-06-16 22:21:47.991 INFO  Initializer:90 - Launching  https://phmadminuat.healthec.com/AHGCR0137/ chrome with new profile..
+2017-06-16 22:22:12.426 INFO  Initializer:17 - Logged in Successfully
+2017-06-16 22:22:12.473 INFO  TC399ForgotPassword:49 - File Path : D:\UATAutomation\hec\src\test\Data\forgotpassword.xlsx
+2017-06-16 22:22:12.474 INFO  TC399ForgotPassword:56 - Multiple Test Data : false
+2017-06-16 22:22:12.520 INFO  TC399ForgotPassword:71 - Test Type : BAT || TesRows :2|| Columns : 5
+2017-06-16 22:22:12.521 INFO  TC399ForgotPassword:73 - Forgot password test execution starts - true
+2017-06-16 22:22:12.521 INFO  Initializer:17 - Forgot password test execution starts - true
+2017-06-16 22:22:12.521 INFO  TC399ForgotPassword:86 - Execute the Row 1
+2017-06-16 22:22:12.522 INFO  TC399ForgotPassword:89 - Execute the Row 1 = NO
+2017-06-16 22:22:12.522 INFO  TC399ForgotPassword:91 - false
+2017-06-16 22:22:12.523 INFO  TC399ForgotPassword:96 - Logged in : true
+2017-06-16 22:22:12.524 INFO  TC399ForgotPassword:99 - Application already logged in. Logging out for Forgot password validation : 
+2017-06-16 22:22:12.527 INFO  Initializer:17 - Application already logged in. Logging out for Forgot password validation
+2017-06-16 22:22:21.409 INFO  TC399ForgotPassword:120 - Clicked on Forgot Password Link
+2017-06-16 22:22:21.411 INFO  Initializer:17 - Clicked on Forgot Password Link
+2017-06-16 22:22:22.141 INFO  TC399ForgotPassword:142 - Forgot Password User Name : test123|| Email ID : test@gmail.com
+2017-06-16 22:22:22.142 INFO  Initializer:17 - Forgot Password User Name : test123|| Email ID : test@gmail.com
+2017-06-16 22:22:22.179 INFO  TC399ForgotPassword:287 - Forgot Password Exception :no such element: Unable to locate element: {"method":"xpath","selector":".//*[@id='ContentPlaceHolder1_txtOTP']"}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'LT-MAHESHANANDA', ip: '192.168.6.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\MAHESH~1.ANA\AppData\Local\Temp\scoped_dir1420_8995}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 138ddd79b6a9141f1bfcde2ab3cc6cb0
+*** Element info: {Using=xpath, value=.//*[@id='ContentPlaceHolder1_txtOTP']}
+2017-06-16 22:22:22.181 INFO  Initializer:35 - Forgot Password Exception :--Exception is :no such element: Unable to locate element: {"method":"xpath","selector":".//*[@id='ContentPlaceHolder1_txtOTP']"}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'LT-MAHESHANANDA', ip: '192.168.6.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\MAHESH~1.ANA\AppData\Local\Temp\scoped_dir1420_8995}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 138ddd79b6a9141f1bfcde2ab3cc6cb0
+*** Element info: {Using=xpath, value=.//*[@id='ContentPlaceHolder1_txtOTP']}
+2017-06-16 22:24:25.692 INFO  Initializer:64 - Client : AHG_UAT
+2017-06-16 22:24:25.695 INFO  Initializer:66 - Browser : CHROME
+2017-06-16 22:24:25.696 INFO  Initializer:68 - Module(s) : PD
+2017-06-16 22:24:25.696 INFO  Initializer:70 - TestType : BAT
+2017-06-16 22:24:25.696 INFO  Initializer:73 - URL : https://phmadminuat.healthec.com/AHGCR0137/
+2017-06-16 22:24:25.697 INFO  Initializer:90 - Launching  https://phmadminuat.healthec.com/AHGCR0137/ chrome with new profile..
+2017-06-16 22:24:46.804 INFO  Initializer:17 - Logged in Successfully
+2017-06-16 22:24:49.125 INFO  TC16AddAccount:115 - Clicking on Provider Admin Home Tab...
+2017-06-16 22:24:59.495 INFO  TC16AddAccount:142 - Clicking on Add Account
+2017-06-16 22:25:05.527 INFO  TC16AddAccount:144 - Clicked on Add Account button in Account Page
+2017-06-16 22:25:05.528 INFO  TC16AddAccount:149 - File Path for Add Account : D:\UATAutomation\hec\src\test\Data\PD\PD_AddAccount.xlsx
+2017-06-16 22:25:05.783 INFO  TC16AddAccount:160 - Sheet Name : AHG
+2017-06-16 22:25:05.784 INFO  TC16AddAccount:164 - Rows :30|| Columns : 38
+2017-06-16 22:25:05.805 INFO  TC16AddAccount:189 - Row No. 1 Account Name : UATAddAccount22255
+2017-06-16 22:25:06.052 INFO  TC16AddAccount:196 - Sole Practitioner
+2017-06-16 22:25:08.422 INFO  TC16AddAccount:203 - Transportation
+2017-06-16 22:25:10.567 INFO  TC16AddAccount:209 - 274858948
+2017-06-16 22:25:10.721 INFO  TC16AddAccount:214 - 1111111112
+2017-06-16 22:25:10.852 INFO  TC16AddAccount:219 - 775440611
+2017-06-16 22:25:10.984 INFO  TC16AddAccount:224 - ALABAMA
+2017-06-16 22:25:11.125 INFO  TC16AddAccount:229 - A458878890
+2017-06-16 22:25:11.263 INFO  TC16AddAccount:234 - 145824
+2017-06-16 22:25:13.368 INFO  TC16AddAccount:241 - 26 - Ambulatory Health Care Facilities
+2017-06-16 22:25:18.021 INFO  TC16AddAccount:273 - 261Q00000X - Clinic/Center
+2017-06-16 22:25:20.427 INFO  TC16AddAccount:278 - JHON
+2017-06-16 22:25:20.540 INFO  TC16AddAccount:283 - MICHEL
+2017-06-16 22:25:20.664 INFO  TC16AddAccount:288 - jhon.michel@gmail.com
+2017-06-16 22:25:20.887 INFO  TC16AddAccount:293 - 100 MEDICAL CENTER WAY
+2017-06-16 22:25:21.163 INFO  TC16AddAccount:298 - SUN PHARMA,45 NEW JERSEY
+2017-06-16 22:25:21.462 INFO  TC16AddAccount:303 - NEW TOWN
+2017-06-16 22:25:21.592 INFO  TC16AddAccount:308 - DELAWARE
+2017-06-16 22:25:21.730 INFO  TC16AddAccount:313 - 91456
+2017-06-16 22:25:21.838 INFO  TC16AddAccount:318 - 4587899150
+2017-06-16 22:25:21.979 INFO  TC16AddAccount:323 - 8475580247
+2017-06-16 22:25:22.116 INFO  TC16AddAccount:328 - 1340
+2017-06-16 22:25:22.206 INFO  TC16AddAccount:333 - 8714859581
+2017-06-16 22:25:22.341 INFO  TC16AddAccount:339 - 1450
+2017-06-16 22:25:24.849 INFO  TC16AddAccount:354 - 45662
+2017-06-16 22:25:25.048 INFO  TC16AddAccount:359 - 78156
+2017-06-16 22:25:25.164 INFO  TC16AddAccount:364 - jhon@123
+2017-06-16 22:25:25.300 INFO  TC16AddAccount:369 - 78156
+2017-06-16 22:25:25.410 INFO  TC16AddAccount:374 - tqpa4321
+2017-06-16 22:25:25.541 INFO  TC16AddAccount:379 - 1056
+2017-06-16 22:25:25.637 INFO  TC16AddAccount:384 - 45899
+2017-06-16 22:25:25.737 INFO  TC16AddAccount:389 - Program1
+2017-06-16 22:25:25.864 INFO  TC16AddAccount:394 - 8497
+2017-06-16 22:25:26.078 INFO  TC16AddAccount:401 - Clicked on Assign Region Button
+2017-06-16 22:25:26.141 INFO  TC16AddAccount:409 - 22099MC
+2017-06-16 22:25:28.524 INFO  TC16AddAccount:441 - Rows count
+2017-06-16 22:25:28.545 INFO  TC16AddAccount:449 - Cols count
+2017-06-16 22:25:28.578 INFO  TC16AddAccount:456 - Cel text
+2017-06-16 22:25:32.108 INFO  TC16AddAccount:472 - Clicked on Assign Facility Button
+2017-06-16 22:25:34.287 INFO  TC16AddAccount:493 - 222280343
+2017-06-16 22:25:36.774 INFO  TC16AddAccount:510 - Rows count
+2017-06-16 22:25:36.800 INFO  TC16AddAccount:698 - Add Account Exception :stale element reference: element is not attached to the page document
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 21 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'LT-MAHESHANANDA', ip: '192.168.6.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\MAHESH~1.ANA\AppData\Local\Temp\scoped_dir5708_21455}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: bd0520209bcf7fae809c2bc2b5a031ee
+*** Element info: {Using=xpath, value=.//*[@id='grdAccountList_lblAccountName_0']}
+2017-06-16 22:25:36.801 INFO  Initializer:35 - Add account failed--Exception is :stale element reference: element is not attached to the page document
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 21 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'LT-MAHESHANANDA', ip: '192.168.6.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\MAHESH~1.ANA\AppData\Local\Temp\scoped_dir5708_21455}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: bd0520209bcf7fae809c2bc2b5a031ee
+*** Element info: {Using=xpath, value=.//*[@id='grdAccountList_lblAccountName_0']}

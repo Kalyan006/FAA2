@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[2017/06/27 01:45:07:-Logged in Successfully]]>
+    </line>
+    <line>
+      <![CDATA[2017/06/27 01:45:27:-Add account failed--Exception is :Cannot locate element with text: 
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DT-KALYANASHIS', ip: '192.168.15.71', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: unknown]]>
+    </line>
+    <line>
+      <![CDATA[<h>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~]]>
+    </line>
+    <line>
+      <![CDATA[Note: Below Screen shot name is fomated as TestCaseName & TestStatus & TestID]]>
+    </line>
+    <line>
+      <![CDATA[Example: TestCaseName_TestStatus_TestID]]>
+    </line>
+    <line>
+      <![CDATA[Please Click Screen shot name to view screen shot in full page]]>
+    </line>
+    <line>
+      <![CDATA[~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</h>]]>
+    </line>
+    <line>
+      <![CDATA[</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>]]>
+    </line>
+    <line>
+      <![CDATA[</br>]]>
+    </line>
+    <line>
+      <![CDATA[<tr><td><a href='file:///D:\UATAutomation\hec/Screenshot/16_Fail_Add account TC.png'> <img src='file:///D:\UATAutomation\hec/Screenshot/16_Fail_Add account TC.png' height='100' width='100'/><b><strong><font size='3' color='OrangeRed'></font></strong></b><b><font size='3' color='Indigo'>16_<font size='3' color='red'>Fail</font>_Add account TC</font></b></a></td></tr>]]>
+    </line>
+    <line>
+      <![CDATA[<font size='3' color='Tomato'>Reason for Failuer   :  </font><font size='3' color='DarkSlateGray'> </font>]]>
+    </line>
+  </reporter-output>
+  <suite name="PD Tests" duration-ms="40777" started-at="2017-06-26T20:14:49Z" finished-at="2017-06-26T20:15:30Z">
+    <groups>
+    </groups>
+    <test name="Initialize" duration-ms="17626" started-at="2017-06-26T20:14:49Z" finished-at="2017-06-26T20:15:07Z">
+      <class name="com.phm.hec.testcases.initiate">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.phm.hec.testcases.initiate@2d928643]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-06-27T01:44:49Z" finished-at="2017-06-27T01:44:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.phm.hec.testcases.initiate.loginn() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.phm.hec.testcases.initiate@2d928643]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-06-27T01:44:49Z" finished-at="2017-06-27T01:44:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.phm.hec.testcases.initiate@2d928643]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-06-27T01:44:49Z" finished-at="2017-06-27T01:44:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="loginn()[pri:0, instance:com.phm.hec.testcases.initiate@2d928643]" name="loginn" duration-ms="17606" started-at="2017-06-27T01:44:49Z" finished-at="2017-06-27T01:45:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2017/06/27 01:45:07:-Logged in Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginn -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.phm.hec.testcases.initiate@2d928643]" name="afterClass" is-config="true" duration-ms="1" started-at="2017-06-27T01:45:07Z" finished-at="2017-06-27T01:45:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.phm.hec.testcases.initiate@2d928643]" name="afterTest" is-config="true" duration-ms="1" started-at="2017-06-27T01:45:07Z" finished-at="2017-06-27T01:45:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.phm.hec.testcases.initiate -->
+    </test> <!-- Initialize -->
+    <test name="TC16" duration-ms="19971" started-at="2017-06-26T20:15:07Z" finished-at="2017-06-26T20:15:27Z">
+      <class name="com.phm.hec.PD.Testcases.TC16AddAccount">
+        <test-method status="PASS" signature="AddAccount()[pri:0, instance:com.phm.hec.PD.Testcases.TC16AddAccount@53f65459]" name="AddAccount" duration-ms="19969" started-at="2017-06-27T01:45:07Z" finished-at="2017-06-27T01:45:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2017/06/27 01:45:27:-Add account failed--Exception is :Cannot locate element with text: 
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DT-KALYANASHIS', ip: '192.168.15.71', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: unknown]]>
+            </line>
+            <line>
+              <![CDATA[<h>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~]]>
+            </line>
+            <line>
+              <![CDATA[Note: Below Screen shot name is fomated as TestCaseName & TestStatus & TestID]]>
+            </line>
+            <line>
+              <![CDATA[Example: TestCaseName_TestStatus_TestID]]>
+            </line>
+            <line>
+              <![CDATA[Please Click Screen shot name to view screen shot in full page]]>
+            </line>
+            <line>
+              <![CDATA[~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</h>]]>
+            </line>
+            <line>
+              <![CDATA[</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>]]>
+            </line>
+            <line>
+              <![CDATA[</br>]]>
+            </line>
+            <line>
+              <![CDATA[<tr><td><a href='file:///D:\UATAutomation\hec/Screenshot/16_Fail_Add account TC.png'> <img src='file:///D:\UATAutomation\hec/Screenshot/16_Fail_Add account TC.png' height='100' width='100'/><b><strong><font size='3' color='OrangeRed'></font></strong></b><b><font size='3' color='Indigo'>16_<font size='3' color='red'>Fail</font>_Add account TC</font></b></a></td></tr>]]>
+            </line>
+            <line>
+              <![CDATA[<font size='3' color='Tomato'>Reason for Failuer   :  </font><font size='3' color='DarkSlateGray'> </font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddAccount -->
+      </class> <!-- com.phm.hec.PD.Testcases.TC16AddAccount -->
+    </test> <!-- TC16 -->
+    <test name="EndTestSuite" duration-ms="3158" started-at="2017-06-26T20:15:27Z" finished-at="2017-06-26T20:15:30Z">
+      <class name="com.phm.hec.testcases.EndTestSuiteRun">
+        <test-method status="PASS" signature="EndTestSuite()[pri:0, instance:com.phm.hec.testcases.EndTestSuiteRun@2833cc44]" name="EndTestSuite" duration-ms="3156" started-at="2017-06-27T01:45:27Z" finished-at="2017-06-27T01:45:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndTestSuite -->
+      </class> <!-- com.phm.hec.testcases.EndTestSuiteRun -->
+      <class name="com.phm.hec.testcases.initiate">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.phm.hec.testcases.initiate@2d928643]" name="beforeSuite" is-config="true" duration-ms="31" started-at="2017-06-27T01:44:49Z" finished-at="2017-06-27T01:44:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+      </class> <!-- com.phm.hec.testcases.initiate -->
+    </test> <!-- EndTestSuite -->
+  </suite> <!-- PD Tests -->
+</testng-results>

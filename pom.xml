@@ -1,0 +1,202 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.phm</groupId>
+  <artifactId>hec</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <build>
+  	<plugins>
+  		<plugin>
+  			<artifactId>maven-compiler-plugin</artifactId>
+  			<version>3.1</version>
+  			<configuration>
+  				<source>1.8</source>
+  				<target>1.8</target>
+  			</configuration>
+  		</plugin>
+  		
+  	</plugins>
+  </build>
+  <packaging>jar</packaging>
+  <name>hec</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <suiteXmlFile>TestSuite.xml</suiteXmlFile>
+	<skipTests>false</skipTests>
+  </properties>
+
+  <dependencies>
+    <!-- https://mvnrepository.com/artifact/junit/junit -->
+	<dependency>
+    	<groupId>junit</groupId>
+    	<artifactId>junit</artifactId>
+    	<version>4.12</version>
+	</dependency>
+    
+    <!-- https://mvnrepository.com/artifact/org.jboss.spec.javax.net.ssl/jboss-jsse-api_8.0_spec -->
+	<dependency>
+	    <groupId>org.jboss.spec.javax.net.ssl</groupId>
+	    <artifactId>jboss-jsse-api_8.0_spec</artifactId>
+	    <version>1.0.0.Final</version>
+	</dependency>
+    
+    <!-- https://mvnrepository.com/artifact/org.jglobus/jsse -->
+	<dependency>
+	    <groupId>org.jglobus</groupId>
+	    <artifactId>jsse</artifactId>
+	    <version>2.1.0</version>
+	</dependency>
+    
+    <!-- https://mvnrepository.com/artifact/net.sourceforge.htmlunit/webdriver 
+	<dependency>
+    	<groupId>net.sourceforge.htmlunit</groupId>
+    	<artifactId>webdriver</artifactId>
+    	<version>2.6</version>
+	</dependency> -->
+    <!-- https://mvnrepository.com/artifact/io.skullabs.stalkr/stalkr-death-by-captcha -->
+	<!-- <dependency>
+    	<groupId>io.skullabs.stalkr</groupId>
+    	<artifactId>stalkr-death-by-captcha</artifactId>
+    	<version>0.2.1</version>
+	</dependency> -->
+    
+    <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
+	<dependency>
+    	<groupId>org.apache.maven.plugins</groupId>
+	    <artifactId>maven-surefire-plugin</artifactId>
+    	<version>2.19.1</version>
+	</dependency>
+    
+    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+	<dependency>
+    	<groupId>org.seleniumhq.selenium</groupId>
+    	<artifactId>selenium-java</artifactId>
+    	<version>2.53.1</version>
+	</dependency>
+    
+    <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+	<dependency>
+    	<groupId>org.apache.poi</groupId>
+    	<artifactId>poi</artifactId>
+    	<version>3.16</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/dom4j/dom4j -->
+	<dependency>
+    	<groupId>dom4j</groupId>
+    	<artifactId>dom4j</artifactId>
+    	<version>1.6.1</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+	<dependency>
+    	<groupId>org.apache.poi</groupId>
+    	<artifactId>poi-ooxml</artifactId>
+    	<version>3.16</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml-schemas -->
+	<dependency>
+    	<groupId>org.apache.poi</groupId>
+    	<artifactId>poi-ooxml-schemas</artifactId>
+    	<version>3.16</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.apache.xmlbeans/xmlbeans -->
+	<dependency>
+    	<groupId>org.apache.xmlbeans</groupId>
+    	<artifactId>xmlbeans</artifactId>
+    	<version>2.6.0</version>
+	</dependency>
+	
+	
+	<!-- https://mvnrepository.com/artifact/commons-configuration/commons-configuration -->
+	<dependency>
+    	<groupId>commons-configuration</groupId>
+    	<artifactId>commons-configuration</artifactId>
+    	<version>1.6</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/log4j/log4j -->
+	<dependency>
+    	<groupId>log4j</groupId>
+    	<artifactId>log4j</artifactId>
+    	<version>1.2.17</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api 
+	<dependency>
+    	<groupId>org.slf4j</groupId>
+    	<artifactId>slf4j-api</artifactId>
+    	<version>1.6.6</version>
+	</dependency>-->
+	
+	<!-- https://mvnrepository.com/artifact/xml-apis/xml-apis -->
+	<dependency>
+    	<groupId>xml-apis</groupId>
+	    <artifactId>xml-apis</artifactId>
+    	<version>1.4.01</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
+<!-- 	<dependency>
+    	<groupId>org.slf4j</groupId>
+    	<artifactId>slf4j-log4j12</artifactId>
+    	<version>1.6.6</version>
+	</dependency> -->
+	
+	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
+	<dependency>
+    	<groupId>org.seleniumhq.selenium</groupId>
+    	<artifactId>selenium-chrome-driver</artifactId>
+    	<version>2.53.0</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-ie-driver -->
+	<dependency>
+    	<groupId>org.seleniumhq.selenium</groupId>
+    	<artifactId>selenium-ie-driver</artifactId>
+    	<version>2.53.0</version>
+	</dependency>
+
+	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-safari-driver -->
+	<dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-safari-driver</artifactId>
+    	<version>2.53.0</version>
+	</dependency>
+
+	<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+	<dependency>
+    	<groupId>org.testng</groupId>
+    	<artifactId>testng</artifactId>
+    	<version>6.8.8</version>
+	</dependency>
+
+	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-opera-driver -->
+	<dependency>
+    	<groupId>org.seleniumhq.selenium</groupId>
+    	<artifactId>selenium-opera-driver</artifactId>
+    	<version>3.3.1</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/javax.mail/javax.mail-api -->
+	<dependency>
+    	<groupId>javax.mail</groupId>
+    	<artifactId>mail</artifactId>
+    	<version>1.4</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
+	<dependency>
+    	<groupId>com.relevantcodes</groupId>
+    	<artifactId>extentreports</artifactId>
+    	<version>2.05</version>
+    	<!--  <version>2.41.2</version>-->
+	</dependency>
+
+  </dependencies>
+</project>
